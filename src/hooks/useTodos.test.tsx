@@ -3,8 +3,8 @@ import { renderHook } from "@testing-library/react-hooks";
 import { useTodos } from "./useTodos";
 
 test("loads todos", async () => {
-  jest.spyOn(window, "fetch");
-  (window.fetch as any).mockReturnValue({
+  jest.spyOn(global, "fetch");
+  (global.fetch as jest.Mock).mockReturnValue({
     json: () => ({
       todos: [{ id: "1", title: "My Todo", description: "Lorem ipsum" }],
     }),
