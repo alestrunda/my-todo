@@ -1,4 +1,4 @@
-# Notino
+# My TODO
 
 Simple TODO app created as an interview assignment. Reviewed successfully and I received a job offer :)
 
