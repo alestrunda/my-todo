@@ -1,6 +1,6 @@
 # Notino
 
-Simple TODO app created as an interview assignment. Reviewed successfully and I received an offer :)
+Simple TODO app created as an interview assignment. Reviewed successfully and I received a job offer :)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
